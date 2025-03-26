@@ -1,7 +1,6 @@
 {
     "files.associations": {
         "*.cpp": "cpp",
-        "*.fidl": "fidl",
         "array": "cpp",
         "atomic": "cpp",
         "bit": "cpp",
@@ -62,5 +61,6 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "D:/dev/cpp/Plane/Sandbox"
 }
