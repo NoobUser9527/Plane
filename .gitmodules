@@ -1,3 +1,15 @@
 [submodule "Plane/external/spdlog"]
 	path = Plane/external/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "external/glfw"]
+	path = external/glfw
+	url = https://github.com/glfw/glfw
+[submodule "external/glad"]
+	path = external/glad
+	url = https://github.com/Dav1dde/glad
+[submodule "Plane/external/glfw"]
+	path = Plane/external/glfw
+	url = https://github.com/glfw/glfw
+[submodule "Plane/external/glad"]
+	path = Plane/external/glad
+	url = https://github.com/Dav1dde/glad
