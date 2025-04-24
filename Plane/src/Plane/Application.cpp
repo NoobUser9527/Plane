@@ -1,10 +1,10 @@
-#include "Plane/Application.hpp"
+#include "Plane/Core/Application.hpp"
 
 #include <iostream>
 #include <thread>
 #include <chrono>
 
-#include "Plane/Log.hpp"
+#include "Plane/Core/Log.hpp"
 
 namespace pl
 {

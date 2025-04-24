@@ -1,6 +1,9 @@
 #pragma once
 
-#ifdef PLANE_PLATFORM_WINDOWS
+
+
+
+#ifdef _WIN32
     #ifdef PLANE_BUILD_DLL
         #define PLANE_API __declspec(dllexport)
     #else

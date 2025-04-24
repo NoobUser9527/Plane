@@ -1,9 +1,8 @@
 #pragma once
 
-#include "Application.hpp"
-#include "Plane/Log.hpp"
+#include "Plane/Core/Application.hpp"
+#include "Plane/Core/Log.hpp"
 
-#ifdef PLANE_PLATFORM_WINDOWS
 
 extern pl::Application *pl::CreateApplication();
 
@@ -16,6 +15,3 @@ int main(int argc, char **argv)
     return 0;
 }
 
-#else
-#error Plane only supports Windows!
-#endif

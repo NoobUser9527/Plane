@@ -19,5 +19,5 @@ add_dependencies(Sandbox Plane)
 target_include_directories(Sandbox PRIVATE ${CMAKE_SOURCE_DIR}/Plane/include)
 target_link_libraries(Sandbox PRIVATE Plane)
 
-target_compile_definitions(Sandbox PRIVATE PLANE_PLATFORM_WINDOWS)
+target_compile_definitions(Sandbox PRIVATE)
 target_compile_options(Sandbox PRIVATE -Wall -Wextra -Wpedantic)
