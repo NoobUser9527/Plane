@@ -4,7 +4,7 @@
 #include "Plane/Core/KeyCodes.hpp"
 #include <sstream>
 
-namespace Hazel {
+namespace pl {
 
 	class KeyEvent : public Event
 	{

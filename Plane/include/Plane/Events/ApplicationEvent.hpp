@@ -4,7 +4,7 @@
 
 #include <sstream>
 
-namespace Hazel {
+namespace pl {
 
 	class WindowResizeEvent : public Event
 	{

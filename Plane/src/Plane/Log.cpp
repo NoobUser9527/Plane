@@ -1,3 +1,5 @@
+#include "plpch.hpp"
+
 #include "Plane/Core/Log.hpp"
 
 #include <spdlog/spdlog.h>

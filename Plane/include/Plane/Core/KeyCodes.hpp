@@ -2,7 +2,7 @@
 
 #include <cstdint>
 
-namespace Hazel
+namespace pl
 {
     using KeyCode = uint16_t;
 

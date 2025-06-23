@@ -1,8 +1,6 @@
-#include "Plane/Core/Application.hpp"
+#include "plpch.hpp"
 
-#include <iostream>
-#include <thread>
-#include <chrono>
+#include "Plane/Core/Application.hpp"
 
 #include "Plane/Core/Log.hpp"
 

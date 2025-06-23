@@ -6,7 +6,7 @@
 
 #include <sstream>
 
-namespace Hazel {
+namespace pl {
 
 	class MouseMovedEvent : public Event
 	{
