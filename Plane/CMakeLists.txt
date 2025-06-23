@@ -7,6 +7,9 @@ add_library(Plane SHARED ${PLANE_SOURCES})
 
 add_subdirectory(external/spdlog)
 
+set_target_properties(spdlog PROPERTIES POSITION_INDEPENDENT_CODE ON)
+
+
 target_link_libraries(Plane PUBLIC spdlog::spdlog)
 
 target_include_directories(Plane PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)

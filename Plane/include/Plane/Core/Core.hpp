@@ -1,17 +1,25 @@
 #pragma once
 
 
-
-
-#ifdef _WIN32
+#if defined(_WIN32) || defined(_WIN64)
     #ifdef PLANE_BUILD_DLL
         #define PLANE_API __declspec(dllexport)
-    #else
+    #elif defined(PLANE_USE_DLL)
         #define PLANE_API __declspec(dllimport)
+    #else
+        #define PLANE_API
+    #endif
+#elif defined(__GNUC__) || defined(__clang__)
+    #ifdef PLANE_BUILD_DLL
+        #define PLANE_API __attribute__((visibility("default")))
+    #else
+        #define PLANE_API
     #endif
 #else
-    #error Plane only supports Windows!
+    #define PLANE_API
 #endif
+
+
 
 #define BIT(x) (1 << x)
 
